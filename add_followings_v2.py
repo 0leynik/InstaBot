@@ -113,7 +113,7 @@ def write_full_userinfo(sourse_userinfo, users):
 
         if is_correct_for_dict(users[i]):
             sleep()
-            # api.follow(users[i][0])
+            api.follow(users[i][0])
             current_following_count += 1
             append_text_in_file(filenames[0], write_full_pattern.format(*userinfo))
         else:
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
                 sleep()
                 print('Follow...')
-                # api.follow(user[0])
+                api.follow(user[0])
                 current_following_count += 1
 
                 if not current_following_count < max_following_count:
