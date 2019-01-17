@@ -13,8 +13,8 @@ import os
 
 api = InstagramAPI("username", "password")
 max_following_count = 300
-processing_only_correct_users = True
 time_delay = (10, 30)
+processing_only_correct_users = True
 
 
 datetime_msk = datetime.datetime.now(datetime.timezone(datetime.timedelta(seconds=10800), 'MSK'))
