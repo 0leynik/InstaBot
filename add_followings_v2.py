@@ -125,7 +125,6 @@ def write_full_userinfo(sourse_userinfo, users):
 if __name__ == '__main__':
 
     try:
-        size_users_to_following = len(users_to_following)
         i = 0
 
         while current_following_count < max_following_count and len(users_to_following) > 0:
